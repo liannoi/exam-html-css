@@ -1,0 +1,34 @@
+body {
+    font-family: "Adobe Garamond Pro", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+.block {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+#header {
+    background-color: #FFFFFF !important;
+}
+
+#header .navbar-brand {
+    font-weight: bold;
+}
+
+#header-social-media ul a:hover {
+    background-color: #F7F7F7;
+}
+
+a img {
+    height: 16px;
+    width: 16px;
+}
+
+.text-lighter,
+.text-button {
+    font-family: "Source Code Pro", "Adobe Garamond Pro", "Helvetica Neue", "Segoe UI", sans-serif;
+}
+
+.text-lighter {
+    font-weight: lighter;
+    font-size: 12px;
+}
