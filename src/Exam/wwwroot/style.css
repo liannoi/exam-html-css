@@ -8,20 +8,17 @@ body {
     border-bottom: 1px solid #E7E7E7;
 }
 
-.text-lighter,
-.text-button {
-    font-family: "Source Code Pro", "Adobe Garamond Pro", "Helvetica Neue", "Segoe UI", sans-serif;
+.text-monospace {
+    font-size: 11px;
 }
 
-.text-lighter {
-    font-weight: lighter;
-    font-size: 12px;
+.font-weight-bold {
+    font-size: 17px;
 }
 
 .picture > img {
     width: 400px;
 }
-
 
 /* header */
 
@@ -112,4 +109,20 @@ a img {
 .carousel:hover .carousel-control-prev,
 .carousel:hover .carousel-control-next {
     visibility: visible;
+}
+
+/* feature */
+
+.feature-block-up,
+.feature-block-down {
+    border-right: 1px solid #DCDCDC;
+}
+
+.feature-block-up,
+.feature-block-up-l {
+    border-bottom: 1px solid #DCDCDC;
+}
+
+#label-genius {
+    margin-left: 12px;
 }
