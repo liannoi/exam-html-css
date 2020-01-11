@@ -67,7 +67,7 @@
       <updated>1578639200762</updated>
       <workItem from="1578639236506" duration="11255000" />
       <workItem from="1578662709414" duration="10739000" />
-      <workItem from="1578680818994" duration="33431000" />
+      <workItem from="1578680818994" duration="47273000" />
     </task>
     <servers />
   </component>
@@ -75,6 +75,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="375" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578779282381">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="375" y="44" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.801@0.23.1440.801" timestamp="1578779282381" />
+    <state x="275" y="44" width="782" height="713" key="find.popup" timestamp="1578767193824">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="275" y="44" width="782" height="713" key="find.popup/0.23.1440.801@0.23.1440.801" timestamp="1578767193824" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1578733755871">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
