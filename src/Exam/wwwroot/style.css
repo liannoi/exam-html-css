@@ -8,6 +8,10 @@ body {
     border-bottom: 1px solid #E7E7E7;
 }
 
+.block-footer {
+    border-top: 1px solid #E7E7E7;
+}
+
 .text-monospace {
     font-size: 11px;
 }
@@ -33,7 +37,8 @@ body {
 
 /* social media */
 
-#header-social-media ul a:hover {
+#header-social-media ul a:hover,
+.block-footer ul li:hover {
     background-color: #F7F7F7;
 }
 
@@ -42,6 +47,15 @@ a img {
     width: 16px;
 }
 
+.list-social li {
+    display: inline-block;
+    border-radius: 50%;
+    border-color: #d2d2d2;
+    border-style: solid;
+    width: auto;
+    height: auto;
+    padding: 5px 0;
+}
 
 /* blur */
 
@@ -145,4 +159,11 @@ a img {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* footer */
+
+.block-footer a img {
+    height: 21px;
+    width: 21px;
 }
