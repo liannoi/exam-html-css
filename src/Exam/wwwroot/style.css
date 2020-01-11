@@ -147,6 +147,20 @@ a img {
     border-right: 1px solid #DCDCDC;
 }
 
+@media only screen and (max-width: 991px) {
+    .feature-item:nth-child(2),
+    .feature-item:nth-child(4) {
+        border-right: none;
+    }
+
+    .feature-item:nth-child(3) {
+        border-right: 1px solid #DCDCDC;
+    }
+
+    .feature-item:nth-child(4) {
+        border-bottom: 1px solid #DCDCDC;
+    }
+}
 
 /* write to us */
 
