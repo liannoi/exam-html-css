@@ -22,6 +22,7 @@ body {
     width: 400px;
 }
 
+
 /* header */
 
 #header {
@@ -31,6 +32,7 @@ body {
 #header .navbar-brand {
     font-weight: bold;
 }
+
 
 /* social media */
 
@@ -43,6 +45,7 @@ a img {
     width: 16px;
 }
 
+
 /* blur */
 
 .picture > img {
@@ -53,6 +56,60 @@ a img {
 
 .picture > img:hover {
     transition: all .4s ease;
-    filter: blur(5px) ;
+    filter: blur(5px);
     -webkit-filter: blur(5px);
+}
+
+
+/* vignette and preparation for displaying text */
+
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.gallery-item .gallery-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.gallery-item img {
+    display: block;
+    position: relative;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    width: 100%;
+    object-fit: cover;
+    height: 310px;
+}
+
+
+/* hiding and showing when hovering carousel controls */
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+    visibility: visible;
 }
