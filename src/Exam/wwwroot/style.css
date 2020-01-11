@@ -1,26 +1,11 @@
+/* common */
+
 body {
     font-family: "Adobe Garamond Pro", "Helvetica Neue", "Segoe UI", sans-serif;
 }
 
 .block {
     border-bottom: 1px solid #E7E7E7;
-}
-
-#header {
-    background-color: #FFFFFF !important;
-}
-
-#header .navbar-brand {
-    font-weight: bold;
-}
-
-#header-social-media ul a:hover {
-    background-color: #F7F7F7;
-}
-
-a img {
-    height: 16px;
-    width: 16px;
 }
 
 .text-lighter,
@@ -31,4 +16,43 @@ a img {
 .text-lighter {
     font-weight: lighter;
     font-size: 12px;
+}
+
+.picture > img {
+    width: 400px;
+}
+
+/* header */
+
+#header {
+    background-color: #FFFFFF !important;
+}
+
+#header .navbar-brand {
+    font-weight: bold;
+}
+
+/* social media */
+
+#header-social-media ul a:hover {
+    background-color: #F7F7F7;
+}
+
+a img {
+    height: 16px;
+    width: 16px;
+}
+
+/* blur */
+
+.picture > img {
+    transition: all .4s ease;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+
+.picture > img:hover {
+    transition: all .4s ease;
+    filter: blur(5px) ;
+    -webkit-filter: blur(5px);
 }
