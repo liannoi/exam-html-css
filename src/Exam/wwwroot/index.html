@@ -12,16 +12,19 @@
 
 <body>
 <!-- header -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light block" id="header">
+<nav class="navbar navbar-light bg-light block navbar-expand-lg" id="header">
     <div class="container">
-        <!-- brand --><a class="navbar-brand" href="#">TOUR-GIUDE</a>
-        <!-- links -->
-        <ul class="nav nav-pills mr-auto">
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Stories</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link text-dark" href="#">Write to us</a></li>
-        </ul>
+        <!-- brand --><a class="font-weight-bold navbar-brand" href="#">TOUR-GIUDE</a>
+        <button class="navbar-toggler" type="button" data-target="#header-links" data-toggle="collapse"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="header-links">
+            <!-- links -->
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-dark" href="#stories">Stories</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#write-to-us">Write to us</a></li>
+            </ul>
+        </div>
         <!-- social media -->
         <div class="d-md-none d-lg-block" id="header-social-media">
             <ul class="nav nav-pills mr-auto">
@@ -51,10 +54,8 @@
         <div class="col-xl-5 col-lg-5 col-md-5 mt-5 pt-5">
             <h1 class="mt-5">Let's hit the road</h1>
             <p class="mt-4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet assumenda atque, eaque fuga repellendus soluta vero! Alias animi asperiores dicta doloribus hic molestiae mollitia numquam omnis quibusdam unde vitae, voluptatem? </p>
-            <p class="mb-4 text-monospace"> Magna etiam tempor orci eu lobortis elementum nibh tellus. Porttitor eget dolor morbi non. </p>
-            <button class="btn btn-outline-secondary pl-3 pr-3 text-monospace">START</button>
-        </div>
-        <div class="col-xl-6 col-lg-6 col-md-6 picture"><img alt="Picture" class="float-xl-right float-lg-right h-100" src="lib/images/picture-01.jpg"></div>
+            <p class="mb-4 text-monospace"> Magna etiam tempor orci eu lobortis elementum nibh tellus. Porttitor eget dolor morbi non. </p> <a type="button" href="#" class="btn btn-outline-secondary pl-3 pr-3 text-monospace">START</a> </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 picture"><img alt="Picture" class="float-xl-right float-lg-right h-100" src="lib/images/picture-01.jpg"></div>
     </div>
 </div>
 <!-- articles -->
@@ -63,10 +64,8 @@
         <div class="col-xl-3 col-lg-3 col-md-3 picture"><img alt="Picture" class="float-xl-left float-lg-left h-100" src="lib/images/picture-02.png"></div>
         <div class="offset-xl-2 offset-lg-2 offset-md-3"></div>
         <div class="col-xl-6 col-lg-6 col-md-5 ml-lg-5 ml-md-5 mt-5">
-            <h2 class="mt-5 ml-3 ml-lg-4 ml-md-5">Story</h2>
-            <p class="mt-4 ml-3 ml-lg-4 ml-md-5"> Ut placerat orci nulla pellentesque dignissim. Aliquam nulla facilisi cras fermentum odio eu feugiat. Nunc pulvinar sapien et ligula ullamcorper. Mauris rhoncus aenean vel elit. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Amet est placerat in egestas erat imperdiet sed euismod nisi. Eget duis at tellus at urna. </p>
-            <button class="ml-lg-4 ml-md-5 btn btn-outline-secondary ml-3 mt-2 pl-4 pr-4 text-monospace">MORE</button>
-        </div>
+            <h2 class="mt-5 ml-3 ml-lg-4 ml-md-5" id="stories">Story</h2>
+            <p class="mt-4 ml-3 ml-lg-4 ml-md-5"> Ut placerat orci nulla pellentesque dignissim. Aliquam nulla facilisi cras fermentum odio eu feugiat. Nunc pulvinar sapien et ligula ullamcorper. Mauris rhoncus aenean vel elit. Orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Amet est placerat in egestas erat imperdiet sed euismod nisi. Eget duis at tellus at urna. </p> <a type="button" href="#" class="ml-lg-4 ml-md-5 btn btn-outline-secondary ml-3 mt-2 pl-4 pr-4 text-monospace">MORE</a> </div>
     </div>
 </div>
 <!-- articles -->
@@ -75,9 +74,7 @@
         <div class="offset-xl-1 offset-lg-1 offset-md-1"></div>
         <div class="col-xl-6 col-lg-5 col-md-4 mt-5">
             <h2 class="mt-5">Story</h2>
-            <p class="mt-4"> Adipisci atque eaque facilis illo optio, similique veniam. A ab accusamus autem consequatur culpa cum cupiditate deserunt dolorem eaque earum molestias necessitatibus, odio porro possimus provident quam quasi quo repudiandae! Adipisci, alias, aspernatur beatae deleniti earum explicabo fuga fugit id laborum magnam minus neque pariatur quas, quia quibusdam repellendus rerum saepe sapiente sint tenetur veritatis vitae voluptates! Doloribus, illum, ipsam? </p>
-            <button class="btn btn-outline-secondary mt-2 pl-4 pr-4 text-monospace">MORE</button>
-        </div>
+            <p class="mt-4"> Adipisci atque eaque facilis illo optio, similique veniam. A ab accusamus autem consequatur culpa cum cupiditate deserunt dolorem eaque earum molestias necessitatibus, odio porro possimus provident quam quasi quo repudiandae! Adipisci, alias, aspernatur beatae deleniti earum explicabo fuga fugit id laborum magnam minus neque pariatur quas, quia quibusdam repellendus rerum saepe sapiente sint tenetur veritatis vitae voluptates! Doloribus, illum, ipsam? </p> <a type="button" href="#" class="btn btn-outline-secondary mt-2 pl-4 pr-4 text-monospace">MORE</a> </div>
         <div class="offset-xl-2 offset-lg-3 offset-md-4"></div>
         <div class="col-xl-3 col-lg-3 col-md-3 picture"><img alt="Picture" class="float-right h-100" src="lib/images/picture-03.jpg"></div>
     </div>
@@ -86,7 +83,7 @@
 <div class="container">
     <div class="row mt-5">
         <div class="col-xl-12 col-lg-12 col-md-12">
-            <h2 class="text-center">Gallery</h2></div>
+            <h2 class="text-center" id="gallery">Gallery</h2></div>
     </div>
     <div class="row mt-4">
         <div class="offset-xl-3 offset-lg-3 offset-md-3"></div>
@@ -241,84 +238,87 @@
 <div class="container">
     <div class="row mt-5">
         <div class="col-xl-12 col-lg-12 col-md-12 mt-5">
-            <h2 class="text-center">Features</h2></div>
+            <h2 class="text-center" id="features">Features</h2></div>
     </div>
-    <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 mt-5 features">
-        <div class="col feature-item pt-5">
-            <div class="card">
-                <div class="card-body mr-4 ml-4"><img alt="Plane icon" src="lib/icons/airplane-48.png" class="offset-md-5">
-                    <h6 class="card-title font-weight-bolder mt-4 text-center">One</h6>
-                    <p class="card-text mt-4 mb-4">Lacus vel facilisis volutpat est velit egestas dui. Mus mauris vitae ultricies leo.</p>
+    <div class="row">
+        <div class="offset-xl-1 col-xl-10">
+            <div class="row row-cols-1 row-cols-xl-3 row-cols-lg-3 row-cols-md-2 mt-5 features">
+                <div class="col feature-item pt-5">
+                    <div class="card">
+                        <div class="card-body mr-4 ml-4"><img alt="Plane icon" src="lib/icons/airplane-48.png" class="offset-md-5">
+                            <h6 class="card-title font-weight-bolder mt-4 text-center ml-2">One</h6>
+                            <p class="card-text mt-4 mb-4">Lacus vel facilisis volutpat est velit egestas dui. Mus mauris vitae ultricies leo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col feature-item pt-5">
+                    <div class="card">
+                        <div class="card-body mr-4 ml-4"><img alt="Map icon" src="lib/icons/map_marker-48.png" class="offset-md-5">
+                            <h6 class="card-title font-weight-bolder mt-4 text-center ml-2">Two</h6>
+                            <p class="card-text mt-4 mb-4">Sed elementum tempus egestas sed sed risus pretium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col feature-item pt-5">
+                    <div class="card">
+                        <div class="card-body mr-4 ml-4"><img alt="Movie icon" src="lib/icons/movie-48.png" class="offset-md-5">
+                            <h6 class="card-title font-weight-bolder mt-4 text-center ml-2">Three</h6>
+                            <p class="card-text mt-4 mb-4">Aliquam eleifend mi in nulla posuere. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col feature-item pt-5">
+                    <div class="card">
+                        <div class="card-body mr-4 ml-4"><img alt="Alarm icon" src="lib/icons/alarm_clock-48.png" class="offset-md-5">
+                            <h6 class="card-title font-weight-bolder mt-4 text-center ml-2">Four</h6>
+                            <p class="card-text mt-4 mb-4">Volutpat consequat mauris nunc congue nisi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col feature-item pt-5">
+                    <div class="card">
+                        <div class="card-body mr-4 ml-4"><img alt="Face icon" src="lib/icons/face-48.png" class="offset-md-5">
+                            <h6 class="card-title font-weight-bolder mt-4 text-center ml-2">Five</h6>
+                            <p class="card-text mt-4 mb-4">Ac tortor dignissim convallis aenean et tortor at. Pulvinar sapien et ligula ullamcorper malesuada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col feature-item pt-5">
+                    <div class="card">
+                        <div class="card-body mr-4 ml-4"><img alt="Genius icon" src="lib/icons/genius-48.png" class="offset-md-5">
+                            <h6 class="card-title font-weight-bolder mt-4 text-center ml-2">Six</h6>
+                            <p class="card-text mt-4 mb-4">Elit at imperdiet dui accumsan sit amet nulla facilisi.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col feature-item pt-5">
-            <div class="card">
-                <div class="card-body mr-4 ml-4"><img alt="Map icon" src="lib/icons/map_marker-48.png" class="offset-md-5">
-                    <h6 class="card-title font-weight-bolder mt-4 text-center">Two</h6>
-                    <p class="card-text mt-4 mb-4">Sed elementum tempus egestas sed sed risus pretium.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col feature-item pt-5">
-            <div class="card">
-                <div class="card-body mr-4 ml-4"><img alt="Movie icon" src="lib/icons/movie-48.png" class="offset-md-5">
-                    <h6 class="card-title font-weight-bolder mt-4 text-center">Three</h6>
-                    <p class="card-text mt-4 mb-4">Aliquam eleifend mi in nulla posuere. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col feature-item pt-5">
-            <div class="card">
-                <div class="card-body mr-4 ml-4"><img alt="Alarm icon" src="lib/icons/alarm_clock-48.png" class="offset-md-5">
-                    <h6 class="card-title font-weight-bolder mt-4 text-center">Four</h6>
-                    <p class="card-text mt-4 mb-4">Volutpat consequat mauris nunc congue nisi.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col feature-item pt-5">
-            <div class="card">
-                <div class="card-body mr-4 ml-4"><img alt="Face icon" src="lib/icons/face-48.png" class="offset-md-5">
-                    <h6 class="card-title font-weight-bolder mt-4 text-center">Five</h6>
-                    <p class="card-text mt-4 mb-4">Ac tortor dignissim convallis aenean et tortor at. Pulvinar sapien et ligula ullamcorper malesuada.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col feature-item pt-5">
-            <div class="card">
-                <div class="card-body mr-4 ml-4"><img alt="Genius icon" src="lib/icons/genius-48.png" class="offset-md-5">
-                    <h6 class="card-title font-weight-bolder mt-4 text-center">Six</h6>
-                    <p class="card-text mt-4 mb-4">Elit at imperdiet dui accumsan sit amet nulla facilisi.</p>
-                </div>
-            </div>
-        </div>
+        <div class="offset-xl-1"></div>
     </div>
 </div>
 <!-- write to us -->
 <div class="container">
     <div class="row mt-5">
         <div class="col-xl-12 col-lg-12 mt-5">
-            <h2 class="text-center">Write to us</h2></div>
+            <h2 class="text-center" id="write-to-us">Write to us</h2></div>
     </div>
     <div class="row mt-5">
-        <div class="col-xl-12 col-lg-12 col-md-12">
+        <div class="offset-xl-1"></div>
+        <div class="col-xl-10 col-lg-12 col-md-12">
             <form id="form" method="post">
                 <div class="row">
                     <div class="form-group col-xl-4 col-lg-4 col-md-4">
                         <label for="user_name" class="font-weight-bolder">Name:</label>
-                        <input type="text" class="form-control" id="user_name" name="user[name]">
-                    </div>
+                        <input type="text" class="form-control" id="user_name" name="user[name]"> </div>
                     <div class="form-group col-xl-4 col-lg-4 col-md-4">
                         <label for="user_email" class="font-weight-bolder">Email:</label>
-                        <input type="email" class="form-control" id="user_email" name="user[email]">
-                    </div>
+                        <input type="email" class="form-control" id="user_email" name="user[email]"> </div>
                     <div class="form-group col-xl-4 col-lg-4 col-md-4">
                         <label for="user_phone" class="font-weight-bolder">Phone:</label>
-                        <input type="tel" class="form-control" id="user_phone" name="user[phone]">
-                    </div>
+                        <input type="tel" class="form-control" id="user_phone" name="user[phone]"> </div>
                 </div>
                 <div class="row mt-2">
-                    <div class="col-xl-2 col-lg-2 col-md-3 mr-xl-n5 mr-lg-n3 mr-md-n5"><span class="font-weight-bolder">Contact me via:</span> </div>
+                    <div class="col-xl-2 col-lg-2 col-md-3 mr-xl-n4 mr-lg-n4 mr-md-n5"><span class="font-weight-bolder">Contact me via:</span> </div>
                     <div class="col-xl-9 col-lg-8 col-md-9 mt-n1 ml-xl-n3 ml-lg-n3">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input mr-3" type="radio" name="user[contact]" id="user_contact_email" value="Email">
@@ -338,8 +338,7 @@
                     <div class="col-xl-12 col-lg-12 col-md-12 mt-3">
                         <div class="form-group">
                             <label for="user_topic" class="font-weight-bolder">Topic:</label>
-                            <input type="text" name="user[topic]" class="form-control" id="user_topic" placeholder="Post my story">
-                        </div>
+                            <input type="text" name="user[topic]" class="form-control" id="user_topic" placeholder="Post my story"> </div>
                     </div>
                 </div>
                 <div class="row">
@@ -363,6 +362,7 @@
                 </div>
             </form>
         </div>
+        <div class="offset-xl-1"></div>
     </div>
 </div>
 <!-- footer -->
